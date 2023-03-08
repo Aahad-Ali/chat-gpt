@@ -21,7 +21,7 @@ function App() {
     // communicate with API
     // post input value 'prompt' to API end point 
     axios
-      .post("https://chat-gpt-tau-blond.vercel.app//chat", { prompt })
+      .post("https://chat-gpt-production.up.railway.app/chat", { prompt })
       .then((res) => {
         // console.log(res.data);
         setResponse(res.data);
