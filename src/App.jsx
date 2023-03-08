@@ -38,7 +38,7 @@
 //   );
 // }
 
-// export default App;
+// export default App;// "eject": "react-scripts eject"
 
 
 
