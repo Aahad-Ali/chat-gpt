@@ -49,7 +49,7 @@ function App() {
       <p className="response-area">
         {loading ? 'loading...' : response}
       </p>
-      <div className="footer">~ webstylepress ~</div>
+      <div className="footer">~ Aahad Ali Rajput ~</div>
 </div>
   );
 }
