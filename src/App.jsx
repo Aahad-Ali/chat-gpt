@@ -21,7 +21,9 @@ function App() {
     // communicate with API
     // post input value 'prompt' to API end point 
     axios
-      .post("https://chat-gpt-production.up.railway.app/chat", { prompt })
+    // localhost:3000
+    // chat-gpt-2-livid.vercel.app
+      .post("http://localhost:5001/chat", { prompt })
       .then((res) => {
         // console.log(res.data);
         setResponse(res.data);
