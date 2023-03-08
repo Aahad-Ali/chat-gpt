@@ -1,44 +1,4 @@
-// import logo from "./logo.svg";
-// import { useState } from "react";
-// import axios from "axios";
-// import "./App.css";
-
-// function App() {
-//   const [prompt, setPrompt] = useState("");
-//   const [responce, setResponce] = useState("");
-//   // const [prompt,setPrompt] = useState(false);
-
-//   const handleSubmit = (e) => {
-//     e.preventDefault();
-
-//     axios
-//       .post("http://localhost:5555/chat", { prompt })
-//       .then((res) => {
-//         setResponce(res.data);
-//       })
-//       .catch((err) => {
-//         console.log("getting error", err);
-//       });
-//   };
-
-//   return (
-//     <div className="main">
-//       <form onSubmit={handleSubmit}>
-//         <input
-//           type="text"
-//           value={prompt}
-//           placeholder="Ask anything......:)"
-//           onChange={(e) => setPrompt(e.target.value)}
-//         />
-
-//         <button type="submit">Ask</button>
-//       </form>
-//       <p placeholder="Here will be generate responce"></p>
-//     </div>
-//   );
-// }
-
-// export default App;// "eject": "react-scripts eject"
+// "eject": "react-scripts eject"
 
 
 
