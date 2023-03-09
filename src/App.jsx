@@ -23,7 +23,7 @@ function App() {
     axios
     // localhost:3000
     // chat-gpt-2-livid.vercel.app
-      .post("https://chat-gpt-tau-blond.vercel.app/chat", { prompt })
+      .post("chat-gpt-tau-blond.vercel.app/chat", { prompt })
       .then((res) => {
         // console.log(res.data);
         setResponse(res.data);
