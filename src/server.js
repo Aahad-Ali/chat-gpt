@@ -10,19 +10,19 @@ const { Configuration, OpenAIApi } = require("openai");
 
 
 // const port = process.env.PORT || 5001;
-const port = 5001;
+// const port = 5001;
 
 // Set up the server ////////////
 
 const app = express();
 app.use(bodyParser.json());
-// app.use(cors())
-app.use(
-  cors({
-    origin: ["http://localhost:3000", "*"],
-    credentials: true,
-  })
-);
+app.use(cors());
+// app.use(
+//   cors({
+//     origin: ["http://localhost:3000", "*"],
+//     credentials: true,
+//   })
+// );
 
 // Set up OpenAI endpoint
 
@@ -46,7 +46,7 @@ app.post("/chat", async (req, res) => {
 
 // Start the server ////////////////////
 
-// const port = 5001;
+const port = 5001;
 app.listen(port, () => {
   console.log(`Server listening on port ${port}`);
   console.log(`https://localhost:${port}`);
