@@ -35,8 +35,9 @@ app.post("/chat", async (req, res) => {
 
 // Start the server ////////////////////
 
-const port = 5001;
+const port = `https://chat-gpt-tau-blond.vercel.app`;
 app.listen(port, () => {
   console.log(`Server listening on port ${port}`);
-  console.log(`https://localhost:${port}`);
+  console.log(`https://chat-gpt-tau-blond.vercel.app`);
 });
+// https://localhost:${port}
