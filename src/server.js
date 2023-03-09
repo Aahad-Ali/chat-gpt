@@ -9,7 +9,9 @@ const { Configuration, OpenAIApi } = require("openai");
 
 
 
-const port = process.env.PORT || 5001;
+// const port = process.env.PORT || 5001;
+const port = 5001;
+
 // Set up the server ////////////
 
 const app = express();
