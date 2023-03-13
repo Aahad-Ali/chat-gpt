@@ -1,8 +1,6 @@
 // "eject": "react-scripts eject"
 
 
-
-
 import {useState} from 'react';
 import axios from 'axios';
 import CGLogo from './chatGPT.png';
@@ -50,6 +48,7 @@ function App() {
       </form>
       <p className="response-area">
         {loading ? 'loading...' : response}
+        <br />
       </p>
       <div className="footer">~ Aahad Ali Rajput ~</div>
 </div>

@@ -35,13 +35,14 @@ body {
 }
 
 .wrapper form button {
-  border: 1px solid #000;
+  border: none;
   font-size: 22px;
   padding: 10px 20px;
-  background-color: #61DAFB;
+  background-image: linear-gradient(to right, rgb(255, 47, 47) ,#1E2025);
   color: #000;
   cursor: pointer;
   border-radius: 4px;
+  color: #fff;
 }
 
 .wrapper form button:hover {
@@ -52,6 +53,7 @@ body {
   font-size: 20px;
   max-width: 1100px;
   display: block;
+  flex-direction: column;
   margin: 50px auto 0 auto;
 }
 
